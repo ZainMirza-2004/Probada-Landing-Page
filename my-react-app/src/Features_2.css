@@ -1,0 +1,382 @@
+.stat2{
+    color: var(--common-White, #000);
+    font-family: "Circular Std";
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 118.519% */
+    letter-spacing: -2.16px;
+    max-width: 50%;
+    margin-left: 100px;
+}
+.feature-title{
+    margin-top: 20px;
+}
+.feature-description {
+    letter-spacing: -0.16px;
+    margin-top: 16px;
+    font-family: "Circular Std Book";
+    font-weight: 450;
+    font-size: 20px;
+    transform: translateX(12px);
+}
+
+.image-carousel1{
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    height: 100%; /* Adjust based on your layout */
+    width: 100%;
+    width: 500px; /* Set width to fit in container */
+    height: 500px; /* Match container height */
+    overflow-y: auto; /* Allow vertical scrolling */
+    position: absolute; /* Position absolute to place it at the top right */
+    top: 0; /* Align to the top */
+    right: 0; /* Align to the right */
+    border-radius: 24px; /* Optional: rounded corners */
+    display: flex; /* Flexbox to align images vertically */
+    flex-direction: column; /* Align images in a column */
+    scroll-snap-type: y mandatory; /* Snap to sections */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    background-color: #f9f9f9; /* Optional: background color */
+    margin-top: 40px;
+    margin-right: 40px;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .image-carousel1::-webkit-scrollbar {
+    display: none;
+  }
+
+.custom-button3 {
+  position: absolute;
+  top: 405px;
+  left: 36%;
+  transform: translateX(120%);
+  padding: 10px 20px;
+  border-radius: 32px;
+  background: var(--primary-main, #D84441);
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Adjust this value to control the space between the text and the icon */
+  font-family: Circular Std Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.custom-button3:hover {
+  background-color: var(--primary-main, #a53533);
+  color: white;
+}
+
+.custom-button11 {
+    background-color: rgba(216, 68, 65, 1);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 32px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 48px; /* Set the height to match the header height */
+    gap: 8px; /* Adjust the space between the text and the icon */
+    white-space: nowrap; /* Prevent line break */
+    width: 183px
+  }
+  .custom-button11:hover {
+    background-color: var(--primary-main, #a53533);
+    color: white;
+  }
+
+
+.seamless-evaluation {
+    display: flex;
+    gap: 2rem;
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    border-radius: 24px;
+    background: var(--secondary-50, #F8F9FB);
+    margin-top: 48px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex; /* Align items side by side */
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px; /* Space between content and carousel */
+    position: relative; /* Position relative for absolute positioning of carousel */
+    width: 1200px; /* Ensure container width */
+    height: 609px; /* Ensure container height */
+
+}
+  
+  .content {
+    flex: 1;
+  }
+  
+  .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--grey-black, #101011);
+    font-family: "Circular Std";
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 118.519% */
+    letter-spacing: -2.16px;
+  }
+  
+  .content p {
+    margin-bottom: 2rem;
+    color: var(--grey-600, #727273);
+  
+  /* Web - Typography/circular-std-book/h6 */
+  font-family: "Circular Std Book";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 28px; /* 140% */
+  letter-spacing: -0.16px;
+  }
+  
+  .steps {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .steps li {
+    padding: 1rem 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .steps li:hover,
+  .steps li.active {
+    color: #e74c3c;
+  }
+
+  .content{
+    margin-left: 4%;
+  }
+  .content p{
+    color: var(--grey-600, #727273);
+  
+  /* Web - Typography/circular-std-book/h6 */
+  font-family: "Circular Std Book";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 28px; /* 140% */
+  letter-spacing: -0.16px;
+  }
+  .steps{
+    font-family: 'Circular Std';
+  }
+  .steps {
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .steps li {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .steps li.active {
+    font-weight: bold;
+  }
+  
+  .arrow-image{
+    width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  opacity: 1.2;
+  }
+  
+  .steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .step {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .step.active {
+    font-weight: bold;
+  }
+  
+  .arrow-image {
+    position: absolute;
+    left: -30px; /* Adjust as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+    opacity: 0.5;
+    width: 20px;
+    height: auto;
+  }
+  
+  
+  .image-carousel {
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    height: 100%; /* Adjust based on your layout */
+    width: 100%;
+  }
+  
+  .image-slide {
+    height: 100%; /* Adjust based on your image size or container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-slide img {
+    max-height: 100%;
+    width: auto; /* Maintain aspect ratio */
+    display: block;
+  }
+  
+  
+  .content {
+    flex: 1; /* Takes up remaining space */
+    max-width: calc(100% - 547px); /* Adjust for carousel width */
+  }
+  
+  .image-carousel {
+    width: 500px; /* Set width to fit in container */
+    height: 500px; /* Match container height */
+    overflow-y: auto; /* Allow vertical scrolling */
+    position: absolute; /* Position absolute to place it at the top right */
+    top: 0; /* Align to the top */
+    right: 0; /* Align to the right */
+    border-radius: 24px; /* Optional: rounded corners */
+    display: flex; /* Flexbox to align images vertically */
+    flex-direction: column; /* Align images in a column */
+    scroll-snap-type: y mandatory; /* Snap to sections */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    border: 1px solid #ddd; /* Optional: border for better visibility */
+    background-color: #f9f9f9; /* Optional: background color */
+    margin-top: 40px;
+    margin-right: 40px;
+  }
+  
+  .image-slide {
+    height: 100%; /* Full height of the container */
+    scroll-snap-align: start; /* Snap to the start of the section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-slide img {
+    max-height: 100%;
+    width: auto; /* Maintain aspect ratio */
+    display: block;
+  }
+  .image-carousel::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for Firefox */
+  .image-carousel {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .steps {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .steps li {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    padding: 10px 0; /* Padding for spacing */
+    position: relative; /* For positioning the arrow symbol */
+  }
+
+
+
+@media (max-width: 480px) {
+    .feature-title {
+        transform: translateX(20px);
+      }
+    .stat2 {
+        color: var(--common-Black, #000);
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: -0.504px;
+        max-width: 150px;
+        width: 20% !important;
+        margin-left: 0;
+        text-align: left;
+    }
+    .feature-description{
+        color: var(--grey-600, #727273);
+    
+      /* Mobile - Typography/Body/Body Large */
+      font-family: "Circular Std Book";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 450;
+      line-height: 24px; /* 150% */
+      transform: translateX(-75px);
+      width: 90%;
+      }
+      .seamless-evaluation {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        padding: 20px;
+        width: auto;
+        max-width: 100%;
+        gap: 1rem;
+        width: 344px;
+        height: 664px;
+        flex-shrink: 0;
+    }
+    .image-carousel1{
+        width: 296px;
+    height: 297.123px;
+    flex-shrink: 0;
+    display: none;
+    }
+    .content h1{
+        color: var(--common-Black, #000);
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: -0.504px;
+        max-width: 150px;
+        width: 20% !important;
+        margin-left: -150px;
+        text-align: left;
+    }
+    .content p{
+        color: var(--grey-600, #727273);
+    
+      /* Mobile - Typography/Body/Body Large */
+      font-family: "Circular Std Book";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 450;
+      line-height: 24px; /* 150% */
+      transform: translateX(-75px);
+      width: 100%;
+      max-width: 298px !important;
+      height: auto;
+    }
+}

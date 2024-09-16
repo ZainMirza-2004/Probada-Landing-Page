@@ -1,0 +1,740 @@
+@font-face {
+    font-family: 'Circular Std';
+    src: url('src/assets/fonts/Circular Std Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+.container2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    color: #000;
+    letter-spacing: -2.16px;
+    align-self: start;
+    font: 700 54px/64px Circular Std, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .title {
+      max-width: 100%;
+      font-size: 40px;
+      line-height: 52px;
+    }
+  }
+  
+  .description {
+    color: var(--grey-600, #727273);
+    font-family: "Circular Std";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 28px;
+    letter-spacing: -0.16px;
+  }
+  
+  @media (max-width: 709px) {
+    .description {
+        width: 709px;
+    }
+  }
+  
+  .featureContainer {
+    border-radius: 16px;
+    border: 1px solid #ddd;
+    background-color: #093550;
+    display: flex;
+    margin-top: 48px;
+    width: 100%;
+    flex-direction: column;
+    padding: 32px 54px;
+  }
+  
+  @media (max-width: 991px) {
+    .featureContainer {
+      max-width: 100%;
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  }
+  
+  .featureContent {
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 991px) {
+    .featureContent {
+      max-width: 100%;
+    }
+  }
+  
+  .featureColumns {
+    gap: 20px;
+    display: flex;
+  }
+  
+  @media (max-width: 991px) {
+    .featureColumns {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 0;
+  }
+  
+  @media (max-width: 991px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  .featureText {
+    display: flex;
+    flex-grow: 1;
+    padding-bottom: 13px;
+    flex-direction: column;
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  @media (max-width: 991px) {
+    .featureText {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  
+  .featureTitle {
+    letter-spacing: -0.34px;
+    font: 34px/46px Circular Std, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .featureTitle {
+      max-width: 100%;
+    }
+  }
+  
+  .featureDescription {
+    letter-spacing: -0.16px;
+    margin-top: 16px;
+    font: 450 20px/28px Circular Std, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .featureDescription {
+      max-width: 100%;
+    }
+  }
+  
+  .learnMoreButton {
+    justify-content: center;
+    border-radius: 32px;
+    background-color: #d84441;
+    display: flex;
+    margin-top: 24px;
+    width: 183px;
+    max-width: 100%;
+    flex-direction: column;
+    font-size: 18px;
+    color: #fff;
+    line-height: 144%;
+    padding: 8px 30px;
+  }
+  
+  @media (max-width: 991px) {
+    .learnMoreButton {
+      padding: 0 20px;
+    }
+  }
+  
+  .buttonContent {
+    justify-content: center;
+    display: flex;
+    gap: 8px;
+  }
+  
+  .buttonText {
+    font-family: Circular Std, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .buttonIcon {
+    aspect-ratio: 0.82;
+    object-fit: auto;
+    object-position: center;
+    width: 18px;
+    margin: auto 0;
+  }
+  
+  .featureImage {
+    aspect-ratio: 2;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+    box-shadow: 0 1.996px 1.996px 0 rgba(0, 0, 0, 0.25);
+    border: 8px solid #000;
+    flex-grow: 1;
+  }
+  
+  @media (max-width: 991px) {
+    .featureImage {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  
+  .sealSection {
+    border-radius: 16px;
+    margin-top: 24px;
+    width: 100%;
+  }
+  
+  @media (max-width: 991px) {
+    .sealSection {
+      max-width: 100%;
+    }
+  }
+  
+  .sealColumns {
+    gap: 20px;
+    display: flex;
+  }
+  
+  @media (max-width: 991px) {
+    .sealColumns {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  }
+  
+  .sealContainer {
+    border-radius: 12px;
+    background-color: #d84441;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 100%;
+    padding: 38px 54px 0;
+  }
+  
+  @media (max-width: 991px) {
+    .sealContainer {
+      max-width: 100%;
+      margin-top: 24px;
+      padding: 0 20px;
+    }
+  }
+  
+  .sealTitle {
+    color: #fff;
+    letter-spacing: -0.34px;
+    font: 700 34px/46px Circular Std, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .sealTitle {
+      max-width: 100%;
+    }
+  }
+  
+  .sealDescription {
+    color: #fff;
+    letter-spacing: -0.16px;
+    margin-top: 16px;
+    font: 450 20px/28px Circular Std, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .sealDescription {
+      max-width: 100%;
+    }
+  }
+  
+  .phoneFrame {
+    border-radius: 24px;
+    border: 9px solid #000;
+    background-color: #fff;
+    align-self: center;
+    display: flex;
+    margin-top: 56px;
+    width: 338px;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 0 19px;
+  }
+  
+  @media (max-width: 991px) {
+    .phoneFrame {
+      margin-top: 40px;
+    }
+  }
+  
+  .phoneHeader {
+    align-self: start;
+    display: flex;
+    margin-left: 11px;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 991px) {
+    .phoneHeader {
+      margin-left: 10px;
+    }
+  }
+  
+  .phoneTime {
+    color: #000;
+    text-align: center;
+    letter-spacing: -0.32px;
+    align-self: start;
+    margin-top: 17px;
+    font: 600 16px/131% SF Pro Text, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .phoneIcons {
+    display: flex;
+    gap: 4px;
+  }
+  
+  .wifiIcon {
+    aspect-ratio: 5.56;
+    object-fit: auto;
+    object-position: center;
+    width: 152px;
+    max-width: 100%;
+  }
+  
+  .batteryIcon {
+    aspect-ratio: 6.25;
+    object-fit: auto;
+    object-position: center;
+    width: 69px;
+    align-self: start;
+    margin-top: 17px;
+  }
+  
+  .notchIcon {
+    aspect-ratio: 1.06;
+    object-fit: auto;
+    object-position: center;
+    width: 18px;
+    margin-top: 35px;
+  }
+  
+  .sealContent {
+    display: flex;
+    margin-top: 16px;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .sealInfo {
+    color: #093550;
+    letter-spacing: -0.19px;
+    font: 700 19px/133% Circular Std, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .sealSubInfo {
+    color: #727273;
+    margin-top: 5px;
+    font: 450 13px/150% Circular Std, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .toggleButtons {
+    justify-content: center;
+    display: flex;
+    gap: 0;
+    font-size: 9px;
+    font-weight: 700;
+    white-space: nowrap;
+    line-height: 100%;
+    margin: auto 0;
+  }
+  
+  @media (max-width: 991px) {
+    .toggleButtons {
+      white-space: initial;
+    }
+  }
+  
+  .skillsButton {
+    font-family: Circular Std, -apple-system, Roboto, Helvetica, sans-serif;
+    justify-content: center;
+    border-radius: 43.217px 0 0 43.217px;
+    border: 1px solid #093550;
+    color: #093550;
+    padding: 3px 13px;
+  }
+  
+  @media (max-width: 991px) {
+    .skillsButton {
+      white-space: initial;
+    }
+  }
+  
+  .sealsButton {
+    font-family: Circular Std, -apple-system, Roboto, Helvetica, sans-serif;
+    justify-content: center;
+    border-radius: 0 43.217px 43.217px 0;
+    background-color: #d84441;
+    color: #fff;
+    padding: 3px 14px;
+  }
+  
+  @media (max-width: 991px) {
+    .sealsButton {
+      white-space: initial;
+    }
+  }
+  
+  .searchBar {
+    border-radius: 9.429px;
+    border: 1px solid #ddd;
+    margin-top: 17px;
+    color: #101011;
+    white-space: nowrap;
+    justify-content: center;
+    padding: 10px 9px;
+    font: 450 13px/150% Circular Std, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .searchBar {
+      white-space: initial;
+    }
+  }
+  
+  .sealGrid {
+    align-items: start;
+    display: flex;
+    margin-top: 32px;
+    gap: 19px;
+    font-size: 9px;
+    color: #101011;
+    font-weight: 450;
+    text-align: center;
+    line-height: 145%;
+    justify-content: space-between;
+  }
+  
+  .sealItem {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    line-height: 13px;
+  }
+  
+  .sealIcon {
+    aspect-ratio: 1.01;
+    object-fit: auto;
+    object-position: center;
+    width: 88px;
+    align-self: center;
+  }
+  
+  .sealLabel {
+    font-family: Circular Std, -apple-system, Roboto, Helvetica, sans-serif;
+    margin-top: 9px;
+  }
+  
+  .sealFooter {
+    display: flex;
+    margin-top: 19px;
+    gap: 19px;
+    justify-content: space-between;
+    padding: 0 1px;
+  }
+  
+  .footerIcon {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footerImage {
+    aspect-ratio: 4.55;
+    object-fit: auto;
+    object-position: center;
+    width: 87px;
+  }
+  
+  .skillSection {
+    border-radius: 16px;
+    background-color: #d3deeb;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 100%;
+    padding: 38px 54px 0;
+  }
+  
+  @media (max-width: 991px) {
+    .skillSection {
+      max-width: 100%;
+      margin-top: 24px;
+      padding: 0 20px;
+    }
+  }
+  
+  .skillTitle {
+    color: #000;
+    letter-spacing: -0.34px;
+    font: 700 34px/135% Circular Std, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .skillTitle {
+      max-width: 100%;
+      margin-right: 10px;
+    }
+  }
+  
+  .skillDescription {
+    color: #000;
+    letter-spacing: -0.16px;
+    margin-top: 16px;
+    font: 450 20px/28px Circular Std, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .skillDescription {
+      max-width: 100%;
+      margin-right: 10px;
+    }
+  }
+  
+  .skillPhoneFrame {
+    border-radius: 20px;
+    border: 9px solid #000;
+    background-color: #fff;
+    align-self: center;
+    display: flex;
+    margin-top: 56px;
+    width: 314px;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  
+  @media (max-width: 991px) {
+    .skillPhoneFrame {
+      margin-top: 40px;
+    }
+  }
+  
+  .skillPhoneHeader {
+    border-radius: 21.953px 21.953px 0 0;
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 22px 22px;
+  }
+  
+  @media (max-width: 991px) {
+    .skillPhoneHeader {
+      padding: 0 20px;
+    }
+  }
+  
+  .skillPhoneTime {
+    color: #000;
+    text-align: center;
+    letter-spacing: -0.32px;
+    align-self: start;
+    margin-top: 16px;
+    font: 600 16px/131% SF Pro Text, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .skillPhoneIcons {
+    .skillPhoneIcons {
+    display: flex;
+    gap: 6px;
+    }
+  }
+  
+  .skillWifiIcon {
+    aspect-ratio: 5.56;
+    object-fit: auto;
+    object-position: center;
+    width: 136px;
+    max-width: 100%;
+  }
+  
+  .skillBatteryIcon {
+    aspect-ratio: 6.25;
+    object-fit: auto;
+    object-position: center;
+    width: 61px;
+    align-self: start;
+    margin-top: 15px;
+  }
+  
+  .skillNotchIcon {
+    aspect-ratio: 1.06;
+    object-fit: auto;
+    object-position: center;
+    width: 18px;
+    margin-top: 25px;
+  }
+  
+  .skillContent {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 0 17px;
+  }
+  
+  @media (max-width: 991px) {
+    .skillContent {
+      margin: 0 10px;
+    }
+  }
+  
+  .skillInfo {
+    color: #093550;
+    letter-spacing: -0.18px;
+    font: 700 18px/133% Circular Std, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .skillSubInfo {
+    color: #727273;
+    margin-top: 5px;
+    font: 450 12px/150% Circular Std, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .skillToggleButtons {
+    display: flex;
+    gap: 0;
+    font-size: 9px;
+    font-weight: 700;
+    white-space: nowrap;
+    line-height: 100%;
+    margin: auto 0;
+  }
+  
+  @media (max-width: 991px) {
+    .skillToggleButtons {
+      white-space: initial;
+    }
+  }
+  
+  .skillsActiveButton {
+    font-family: Circular Std, -apple-system, Roboto, Helvetica, sans-serif;
+    justify-content: center;
+    border-radius: 40.247px 0 0 40.247px;
+    background-color: #d84441;
+    color: #fff;
+    padding: 3px 18px;
+  }
+  
+  @media (max-width: 991px) {
+    .skillsActiveButton {
+      white-space: initial;
+    }
+  }
+  
+  .sealsInactiveButton {
+    font-family: Circular Std, -apple-system, Roboto, Helvetica, sans-serif;
+    justify-content: center;
+    border-radius: 0 40.247px 40.247px 0;
+    border: 1px solid #093550;
+    color: #093550;
+    padding: 3px 12px;
+  }
+  
+  @media (max-width: 991px) {
+    .sealsInactiveButton {
+      white-space: initial;
+    }
+  }
+  
+  .skillSearchBars {
+    display: flex;
+    gap: 8px;
+    font-size: 12px;
+    color: #101011;
+    font-weight: 450;
+    white-space: nowrap;
+    line-height: 150%;
+    margin: 16px 17px 0;
+  }
+  
+  @media (max-width: 991px) {
+    .skillSearchBars {
+      white-space: initial;
+      margin: 0 10px;
+    }
+  }
+  
+  .skillSearchInput {
+    font-family: Circular Std, -apple-system, Roboto, Helvetica, sans-serif;
+    border-radius: 8.781px;
+    border: 1px solid #ddd;
+    justify-content: center;
+    padding: 9px;
+  }
+  
+  @media (max-width: 991px) {
+    .skillSearchInput {
+      white-space: initial;
+    }
+  }
+  
+  .skillStatusDropdown {
+    border-radius: 8.781px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 9px;
+  }
+  
+  @media (max-width: 991px) {
+    .skillStatusDropdown {
+      white-space: initial;
+    }
+  }
+  
+  .skillStatusContent {
+    display: flex;
+    gap: 9px;
+    padding: 9px 0 9px 9px;
+  }
+  
+  @media (max-width: 991px) {
+    .skillStatusContent {
+      white-space: initial;
+    }
+  }
+  
+  .skillStatusText {
+    font-family: 'Circular Std', -apple-system, Roboto, Helvetica, sans-serif;
+    flex: 1;
+  }
+  
+  .skillStatusIcon {
+    aspect-ratio: 0.94;
+    object-fit: auto;
+    object-position: center;
+    width: 17px;
+  }
+  
+  .skillTreeImage {
+    aspect-ratio: 1.12;
+    object-fit: auto;
+    object-position: center;
+    width: 252px;
+    align-self: center;
+    margin-top: 28px;
+    max-width: 100%;
+  }

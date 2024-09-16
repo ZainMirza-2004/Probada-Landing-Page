@@ -17,6 +17,7 @@ Welcome to the repository for the Probada.com landing page! This project is buil
 
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1C?style=flat-square&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) 
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) 
 
@@ -48,14 +49,6 @@ Feel free to customize the content and styles to fit your needs. The project is 
 
 Contributions are welcome! Please fork the repository and submit a pull request with any improvements or bug fixes.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
-For any questions or feedback, please reach out to [your email](mailto:your.email@example.com).
-
----
-
-Let me know if there’s anything else you’d like to add or modify!
+For any questions or feedback, please reach out to [zainmirza3369@gmail.com](mailto:your.email@example.com).

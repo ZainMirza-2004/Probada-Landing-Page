@@ -1,8 +1,4 @@
-Got it! Here's the README with shield badges for the technologies used:
-
----
-
-# Probada.com Landing Page
+# Probada Landing Page
 
 Welcome to the repository for the Probada.com landing page! This project is built with Vite and React, featuring a modern, sleek, and responsive design aimed at providing an engaging and intuitive user experience.
 
@@ -25,7 +21,7 @@ Welcome to the repository for the Probada.com landing page! This project is buil
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/probada-landing-page.git
+   git clone [https://github.com/yourusername/probada-landing-page.git](https://github.com/ZainMirza-2004/Probada-Landing-Page.git)
    ```
 2. Navigate to the project directory:
    ```bash

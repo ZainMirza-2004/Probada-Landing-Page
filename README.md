@@ -1,6 +1,6 @@
 # Probada Landing Page
 
-Welcome to the repository for the Probada.com landing page! This project is built with Vite and React, featuring a modern, sleek, and responsive design aimed at providing an engaging and intuitive user experience.
+This project is built with Vite and React, featuring a modern, sleek, and responsive design aimed at providing an engaging and intuitive user experience.
 
 ## Features
 

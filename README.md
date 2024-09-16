@@ -1,4 +1,4 @@
-Sure! Here's the README with the logos for Vite, React, HTML, and CSS included. You can find and use the appropriate logos from their respective official sources or a logo repository.
+Got it! Here's the README with shield badges for the technologies used:
 
 ---
 
@@ -15,10 +15,10 @@ Welcome to the repository for the Probada.com landing page! This project is buil
 
 ## Technologies Used
 
-- ![Vite Logo](https://vitejs.dev/logo.svg) **Vite**: Build tool for fast development and optimized production builds.
-- ![React Logo](https://reactjs.org/logo-og.png) **React**: JavaScript library for building user interfaces.
-- ![HTML Logo](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg) **HTML**: Structure and content.
-- ![CSS Logo](https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg) **CSS**: Styling and layout.
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) 
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) 
 
 ## Installation
 
@@ -58,4 +58,4 @@ For any questions or feedback, please reach out to [your email](mailto:your.emai
 
 ---
 
-You can replace the image URLs with your preferred sources if needed.
+Let me know if there’s anything else you’d like to add or modify!
